@@ -144,7 +144,7 @@ class CoinApp {
 
     const firstSource = `https://assets.coincap.io/assets/icons/${element.symbol.toLowerCase()}@2x.png`;
     const secondSource = `https://assets.coincap.io/assets/icons/m${element.symbol.toLowerCase()}@2x.png`;
-    const localSource = `../img/coin.png`;
+    const localSource = `./img/coin.png`;
 
     this.loadImage(firstSource, secondSource, localSource)
       .then((imgCoin) => {
