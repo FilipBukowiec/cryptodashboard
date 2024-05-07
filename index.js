@@ -115,7 +115,7 @@ class CoinApp {
       element.addEventListener("click", () => {
         const sideMenu = document.querySelector(".menu-side");
         sideMenu.classList.toggle("active");
-        sideBar.src = "../img/sidebar.svg"
+        sideBar.src = "./img/sidebar.svg"
       });
     });
   }
