@@ -31,7 +31,7 @@ class CoinApp {
 
     const logo = document.createElement("img");
     logo.classList.add("logo");
-    logo.src = "../img/logo.svg";
+    logo.src = "./img/logo.svg";
     menu.appendChild(logo);
 
     const navigation = document.createElement("ul");
@@ -90,16 +90,16 @@ class CoinApp {
 
     const sideBar = new Image();
     sideBar.className = "sidebar";
-    sideBar.src = "../img/sidebar.svg";
+    sideBar.src = "./img/sidebar.svg";
 
     sideBar.addEventListener("click", () => {
       const sideMenu = document.querySelector(".menu-side");
       sideMenu.classList.toggle("active");
 
       if (sideMenu.classList.contains("active")) {
-        sideBar.src = "../img/close.svg";
+        sideBar.src = "./img/close.svg";
       } else {
-        sideBar.src = "../img/sidebar.svg";
+        sideBar.src = "./img/sidebar.svg";
       }
     });
 
