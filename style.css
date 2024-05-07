@@ -71,8 +71,9 @@ body {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.9);
   color: #fff;
-  padding: 40px 0;
+  padding: 60px 0;
   text-align: center;
+  
 }
 
 .menu-side li {
