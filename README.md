@@ -12,6 +12,7 @@ CryptoDashboard is a web application that provides real-time data and insights i
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Data Sources](#data-sources)
 
 ## Technologies
 
@@ -55,3 +56,7 @@ To contribute to this project, follow these steps:
 ## License
 
 This `README.md` file focuses on JavaScript-related technologies and provides clear instructions for setting up and using the project. If there are any additional JavaScript-specific tools or libraries used in the project, you can add them to the "Technologies" section.
+
+
+## Data Sources
+All cryptocurrency data is fetched from the CoinCap API, which is available under a free license.
